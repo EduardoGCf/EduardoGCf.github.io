@@ -1,0 +1,93 @@
+.banner{
+    margin: 50px 0px 0px;
+    font-family: 'Bebas', sans-serif;
+    position: relative;
+    
+}
+
+.banner__img{
+    width: 100%;
+    background-image: url('img/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.banner__subtitle{
+    background-color: #404040;
+    padding: 5px 5px 5px 5px;
+    position: absolute;
+    bottom: 4px;
+    left: 0px;
+}
+
+.banner__subtitle__text1{
+    color: #9a9a9a;
+    font-size: 14px;
+    display: block;
+}
+
+.banner__subtitle__text2{
+    color: white;
+    font-size: 28px;
+}
+
+.banner__footer{
+    margin-top: -4px;
+    font-family: 'HelveticaNeue', sans-serif;
+    font-size: 12px;
+    background-color: rgba(180, 180, 180, 0.1);;
+    padding: 20px 15px;
+}
+
+.banner__footer__title{
+    font-size: 16px;
+    color: #474747;
+    font-family: 'Bebas', sans-serif;
+    margin: 0px;
+}
+
+.banner__footer p{
+    margin-bottom: 0px;
+}
+
+@media (min-width: 768px){
+    .banner{
+        margin: 70px 0px 0px;
+    }
+    .banner__subtitle{
+        padding: 20px 30px 20px 20px;
+    }
+    .banner__subtitle__text1{
+        font-size: 16px;
+    }
+    .banner__subtitle__text2{
+        font-size: 32px;
+    }
+    .banner__footer{
+        padding: 30px 20px;
+    }
+    .banner__footer__title{
+        font-size: 20px;
+    }
+}
+@media (min-width: 992px){
+    .banner{
+        margin: 100px 0px 0px;
+    }
+    .banner__subtitle{
+        padding: 25px 40px 25px 25px;
+    }
+    .banner__subtitle__text1{
+        font-size: 18px;
+    }
+    .banner__subtitle__text2{
+        font-size: 36px;
+    }
+    .banner__footer{
+        padding: 40px 25px;
+    }
+    .banner__footer__title{
+        font-size: 24px;
+    }
+}
